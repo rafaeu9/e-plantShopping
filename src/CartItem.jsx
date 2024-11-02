@@ -13,7 +13,8 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleContinueShopping = (e) => {
-   
+    e.preventDefault();
+    e.handleContinueShopping();
   };
 
 
